@@ -3,8 +3,6 @@
     text-align: center;
   }
 
- /*work in progress, so please bear with it */
-
 body{
     background-color: #777;
     font-family: Arial, Helvetica, sans-serif;
@@ -52,15 +50,39 @@ aside{
     margin: auto;
 }
 
+p{
+    text-align: justify;
+}
+
 article{
-    width: 457px;
-    height: 209px;
+    width: 472px;
+    height: 213px;
     background-color: #777;
     color: #ebebeb;
     float: left;
     position: absolute;
     top: 297px;
-    left: 338px;
+    left: 172px;
+}
+
+#boxed1{
+    width: 449px;
+    height: 75px;
+    background-color:#ebebeb;
+    color: #777;
+    position: absolute;
+    top: 35px;
+    left: 12px;
+}
+
+#boxed2{
+    width: 449px;
+    height: 75px;
+    background-color:#ebebeb;
+    color: #777;
+    position: absolute;
+    top: 122px;
+    left: 12px;
 }
 
 footer{
