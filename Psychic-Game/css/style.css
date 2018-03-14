@@ -1,0 +1,13 @@
+body{
+    background-color: #000000;
+    color: #17ccff;
+}
+
+img{
+    border: 10px;
+    border-color: #17ccff
+}
+
+h1{
+    font-family: 'Bangers', cursive;
+}
