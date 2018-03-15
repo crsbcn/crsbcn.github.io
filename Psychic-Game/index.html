@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
 
@@ -42,13 +43,13 @@
     <div class="container">
         <div class="row">
         <div class="col-md-4">
-            <h2>Wins: 0</h2>
+            <h2>Wins:<span id="wins">0</span></h2>
         </div>
         <div class="col-md-4">
-                <h2>Losses: 0</h2>
+                <h2>Losses: <span id="losses">0</span></h2>
             </div>
         <div class="col-md-4">
-                <h2>Guesses Remaining: 10</h2>
+                <h2>Guesses Remaining: <span id="guessesRemaining">10</span></h2>
             </div>
     </div>
     </div>
@@ -58,7 +59,7 @@
         <div class="row">
             <div class="col-lg-3"></div>
             <div class="col-lg-6">
-                <p><h2>Guesses so far: </h2></p>
+                <p><h2>Guesses so far: <span id="guessesSoFar"></span></h2></p>
                 <br>
                 <p></p>
             </div>
