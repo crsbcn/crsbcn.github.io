@@ -1,13 +1,14 @@
+/*style.css*/
+
 body{
     background-color: #000000;
     color: #17ccff;
 }
 
 img{
-    border: 10px;
-    border-color: #17ccff
+    padding-top: 20px;
+    width: 100%;
 }
-
 h1{
-    font-family: 'Bangers', cursive;
+    font-family: 'Fredoka One', cursive;
 }
