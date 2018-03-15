@@ -33,6 +33,7 @@ document.onkeyup = function (event) {
 			guessesRemaining + " Guesses so far: " + guessesSoFar + " Computer picked: " + letterToBeGuessed);
 
 		document.getElementById("wins").textContent = wins;
+		
 		document.getElementById("guessesRemaining").textContent = guessesRemaining;
 
 		document.getElementById("guessesSoFar").textContent = guessesSoFar;
