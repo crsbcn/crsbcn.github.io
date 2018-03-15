@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
 
 </head>
@@ -29,8 +30,8 @@
 
     <div class=row>
     <div class="col-lg-12">
-    <h1 class="text-center">The Psychic Game</h1>
-    <h2 class="text-center">Guess which letter I'm thinking of</h2>
+    <h1>The Psychic Game</h1>
+    <h2>Guess which letter I'm thinking of</h2>
     </div>
     </div>
     </div>
@@ -40,9 +41,15 @@
     <!-- GAME UI/USER INTERFACE -->
     <div class="container">
         <div class="row">
-        <h3 class="col-md-4" class=>Wins: 1 <!--SAVE FOR JAVASCRIPT--></h3>
-        <h3 class="col-md-4">Losses: 0 <!--SAVE FOR JAVASCRIPT--></h3>
-        <h3 class="col-md-4">Guess Remaining: 6 <!--SAVE FOR JAVASCRIPT--></h3>
+        <div class="col-md-4">
+            <h2>Wins: 0</h2>
+        </div>
+        <div class="col-md-4">
+                <h2>Losses: 0</h2>
+            </div>
+        <div class="col-md-4">
+                <h2>Guesses Remaining: 10</h2>
+            </div>
     </div>
     </div>
     </div>
@@ -51,7 +58,7 @@
         <div class="row">
             <div class="col-lg-3"></div>
             <div class="col-lg-6">
-                <h3 class="text-center">Guesses so far: g, s, o, p </h3>
+                <p><h2>Guesses so far: </h2></p>
                 <br>
                 <p>     <!--SAVE FOR JAVASCRIPT--></p>
             </div>
@@ -61,28 +68,7 @@
     <!-- BOTTOM OF SECTION -->
 
 </body>
-<!--JAVASCRIPT-->
-<script src="javascript/psychic.js"></script>
-<script>
-    document.onkeypress = function(event) {
-    var userGuess = event.key;
+<!--LINK TO JAVASCRIPT-->
+<script type="text/javascript" src="javascript/psychic.js"></script>
 
-    if(userGuess === computerChoice){
-        wins++;
-    }else{
-        guesses--;
-    }
-
-    if(guesses === 0){
-        losses++
-    }
-
-    document.getElementById('wins').innerHTML = "Wins: " + wins;
-    document.getElementById('losses').innerHTML = "losses: " + losses;
-    document.getElementById('guesses').innerHTML = "Guesses left: " + guesses;
-
-}
-</script>
-
-</script>
 </html>

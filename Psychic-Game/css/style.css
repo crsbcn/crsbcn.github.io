@@ -2,7 +2,7 @@
 
 body{
     background-color: #000000;
-    color: #920000;
+    color: #0066cc;
 }
 
 img{
@@ -11,4 +11,9 @@ img{
 }
 h1{
     font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
 }
