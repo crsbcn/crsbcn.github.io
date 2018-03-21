@@ -16,7 +16,12 @@ img{
 }
 
 div{
-    margin: 20px;
+    margin: 10px;
+    width: 100%;
+}
+
+#container{
+    width: 100%;
 }
 
 footer{

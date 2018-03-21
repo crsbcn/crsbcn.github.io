@@ -7,7 +7,7 @@
     <meta name="author" content="Christopher Bacani, 2018">
 
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/css.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -18,9 +18,13 @@
 </head>
 
 <body>
+        
+    <div class="container"> 
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="header">
             <h1>Crystal Collector</h1>
         </div>
+
         <div class="instructions">
             <h3>Here's how you play the game</h3>
             </br>
@@ -40,11 +44,13 @@
                 <li>Each time when the game starts, the game will change the values of each crystal.</li>
             </ol>
         </div>
+        
         <div class="numberToMatch">
             <h2>Number To Get:
                 <span id= "randomNumber"></span>
             </h2>
         </div>
+
         <div class="winsAndLosses">
             <h2>Wins:
                 <span id= "numberWins"></span>
@@ -53,17 +59,22 @@
                 <span id= "numberLosses"></span>
             </h2>
         </div>
+
         <div class="gems">
             <img src="assets/images/sapphire.png" class=gemImage id="one" alt="Blue Gem">
             <img src="assets/images/ruby.png" class=gemImage id="two" alt="Green Gem">
             <img src="assets/images/diamond.png" class=gemImage id= "three" alt="Red Gem">
             <img src="assets/images/emerald.png" class=gemImage id= "four" alt="Yellow Gem">
         </div>
+
         <div class="userTotal">
             <h2>Your total score is:
                 <span id="finalTotal"></span>
             </h2>
         </div>
+
+    </div>
+    </div>
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
         <script type="text/javascript" src="assets/javascript/game.js"></script>
     </body>
